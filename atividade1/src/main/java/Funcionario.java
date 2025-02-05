@@ -24,8 +24,8 @@ public abstract class Funcionario {
         this.nome = nome;
     }
 
-    public void aumentarSalario(double novoSalario){
-        salario = novoSalario;
+    public void aumentarSalario(double aumento){
+        salario = salario + aumento;
         System.out.println("Salaraio aumentado: "+salario);
     }
 
