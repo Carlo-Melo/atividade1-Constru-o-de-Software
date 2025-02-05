@@ -1,18 +1,18 @@
 public abstract class Funcionario {
 
     private String nome;
-    private String salario;
+    private double salario;
 
-    public Funcionario(String salario, String nome) {
+    public Funcionario(double salario, String nome) {
         this.salario = salario;
         this.nome = nome;
     }
 
-    public String getSalario() {
+    public double getSalario() {
         return salario;
     }
 
-    public void setSalario(String salario) {
+    public void setSalario(double salario) {
         this.salario = salario;
     }
 
@@ -24,7 +24,8 @@ public abstract class Funcionario {
         this.nome = nome;
     }
 
-    public void aumentarSalario(String salario){
+    public void aumentarSalario(double novoSalario){
+        salario = novoSalario;
         System.out.println("Salaraio aumentado: "+salario);
     }
 
