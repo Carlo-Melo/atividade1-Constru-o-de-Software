@@ -2,12 +2,12 @@ public class Gerente extends Funcionario {
 
     private String departamento;
 
-    public Gerente(String salario, String nome) {
+    public Gerente(double salario, String nome) {
         super(salario, nome);
     }
 
     @Override
-    public void aumentarSalario(String salario) {
+    public void aumentarSalario(double salario) {
         super.aumentarSalario(salario);
     }
 
