@@ -1,4 +1,4 @@
-public abstract class Funcionario {
+public class Funcionario {
 
     private String nome;
     private double salario;
